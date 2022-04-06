@@ -3,8 +3,14 @@ module.exports = {
     browser: true,
     es2021: true
   },
+  setting:{
+    react:{
+      version: "detected",
+    },
+  },
   extends: [
     'plugin:react/recommended',
+    'plugin:react/jsx-rutine',
     'standard'
   ],
   parserOptions: {
