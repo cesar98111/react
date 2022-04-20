@@ -11,7 +11,8 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react/jsx-rutine',
-    'standard'
+    'standard',
+    'eslint-config-prettier'
   ],
   parserOptions: {
     ecmaFeatures: {
