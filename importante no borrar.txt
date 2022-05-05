@@ -1,0 +1,24 @@
+
+Instalaciones
+1-instalar node
+2-instalar VSC plugin llamado ESLint
+3-instalar VSC plugin llamado Prettier
+4-instalar VSC plugin llamado Error Lens
+5-instalar en el navegador la extension react Developer Tools
+
+Pasos:
+1- crear un proyecto de REACT : npx create-react-app nombre_app 
+2- cd nombre_app
+3- instalar el paquete eslint: npm i -D eslint
+4- Configurar eslint a traves del fichero .eslintrc.js
+5- Instalar el paquete prettier: npm i -D prettier
+6- Configurar prettier a traves del fichero .prettierrc
+7- Instalar el paquete que evita conflictos entre eslint y prettier
+	npm i -D eslint-config-prettier
+8- Añadir 'eslint-config-prettier' al array de extends en el eslintrc.js
+
+9- Inicializar nuestra aplicacion: npm run start o npm start
+
+-- cuando ya el proyecto este terminado --
+
+10- crear ficheros para deploy: npm run  build

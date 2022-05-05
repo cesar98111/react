@@ -1,8 +1,7 @@
-import { Fragment } from "react"
-const App = (props) =>{
-    const {name} = props;
+import Welcome from "./components/Welcome"
 
-
+const App = () =>{
+    
     return(
         /*
         <Fragment>
@@ -11,10 +10,8 @@ const App = (props) =>{
         </Fragment>
         **/
         <>
-        <h1>Hello world</h1>
-        <p>hola mundo {name}</p>
+        <Welcome name='pepe' surname='glez'/>
     </>
-        
     )
 }
 

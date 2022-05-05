@@ -5,5 +5,5 @@ import './index.css';
 import App from './App';
 //const b = 5
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App  name ='pepe' />);
+root.render(<App />);
 

@@ -1,6 +1,6 @@
-import { Fragment } from "react"
-const App = (props) =>{
-    const {name} = props;
+import PropTypes from 'prop-types';
+const App = (name, surname) =>{
+    
 
 
     return(
@@ -15,7 +15,12 @@ const App = (props) =>{
         <p>hola mundo {name}</p>
     </>
         
-    )
+    );
+};
+
+App.prototypes={
+    name:PropTypes.string.isRequired,
+    surname: PropTypes.string.isRequired
 }
 
 export default App
