@@ -1,4 +1,5 @@
 import CounterApp from "./Component/CounterApp";
+import Toogle from "./Component/Toogle";
 const App = () =>{
    
 
@@ -6,7 +7,10 @@ const App = () =>{
     return(
  
         <>
-        <CounterApp value={23}/>
+        
+      { /* <CounterApp value={23}/>*/}
+      {/*<Toogle/>*/}
+
     </>
         
     )
