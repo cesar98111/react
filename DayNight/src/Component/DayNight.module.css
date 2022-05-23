@@ -1,0 +1,9 @@
+.container{
+    border: 10px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    width: 60%;
+}
+img {
+    width: 100%;
+}
